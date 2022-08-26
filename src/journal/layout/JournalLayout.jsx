@@ -1,5 +1,5 @@
 import { Box } from '@mui/system';
-import { NavBar } from '../components';
+import { NavBar, SideBar } from '../components';
 
 export const JournalLayout = ({ children }) => {
 
@@ -12,6 +12,7 @@ export const JournalLayout = ({ children }) => {
             <NavBar drawerWidth={ drawerWidth } />
 
             {/* Sidebar */}
+            <SideBar drawerWidth={ drawerWidth } />
 
             <Box 
                 component='main'

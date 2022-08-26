@@ -11,7 +11,7 @@ export const LoginPage = () => {
                     <Grid container>
                         <Grid item xs={ 12 } sx={{ mt: 2 }}>
                             <TextField 
-                                label="email" 
+                                label="Email" 
                                 type="email" 
                                 placeholder='email@gmail.com'
                                 fullWidth
@@ -20,7 +20,7 @@ export const LoginPage = () => {
 
                         <Grid item xs={ 12 } sx={{ mt: 2 }}>
                             <TextField 
-                                label="password" 
+                                label="Password" 
                                 type="password" 
                                 placeholder='Password'
                                 fullWidth
